@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <script>
+    "use strict";
+
+    // Ask user for meal cost
+    const mealCost = parseFloat(prompt("Enter the cost of the meal:"));
+
+    // Ask user for tip percent
+    const tipPercent = parseFloat(prompt("Enter the tip percent:"));
+
+    console.log(mealCost);
+    console.log(tipPercent);
+
+    // Calculate tip amount
+    const tipAmount = mealCost * (tipPercent / 100);
+
+    // Calculate total cost
+    const totalCost = mealCost + tipAmount;
+
+    // Display results
+    alert(`Meal Cost: $${mealCost.toFixed(2)} 
+    Tip Percent: ${tipPercent}%
+    Tip Amount: $${tipAmount.toFixed(2)}
+    Total Cost: $${totalCost.toFixed(2)}`);
+
+    </script>
+
+</body>
+</html>
