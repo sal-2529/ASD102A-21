@@ -1,18 +1,18 @@
 // Week 2 - Hands on Exercise 03
 
-for (let i = 1; i <= 20; i++) {
+for (let number = 1; number <= 20; number++) {
 
-    if (i % 3 === 0 && i % 5 === 0) {
-        console.log(i + " FizzBuzz");
+    if (number % 3 === 0 && number % 5 === 0) {
+        console.log(number + " FizzBuzz");
     }
-    else if (i % 3 === 0) {
-        console.log(i + " Fizz");
+    else if (number % 3 === 0) {
+        console.log(number + " Fizz");
     }
-    else if (i % 5 === 0) {
-        console.log(i + " Buzz");
+    else if (number % 5 === 0) {
+        console.log(number + " Buzz");
     }
     else {
-        console.log(i);
+        console.log(number);
     }
 
 }
