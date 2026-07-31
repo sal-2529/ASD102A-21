@@ -1,4 +1,4 @@
-// Week 3 Hands on Exercise 05
+// Week 3 Hands on Exercise 05 - -
 let input = prompt("Enter test scores separated by commas:");
 
 if (input === null || input.trim() === "") {
@@ -11,7 +11,7 @@ if (input === null || input.trim() === "") {
         scores[i] = Number(scores[i]);
     }
 
-    // Find the total
+    // Total
     let total = 0;
     for (let i = 0; i < scores.length; i++) {
         total += scores[i];
